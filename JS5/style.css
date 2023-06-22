@@ -1,0 +1,53 @@
+main {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 400px;
+    height: 300px;
+}
+
+main div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+h1{
+    margin-left: 150px;
+}
+
+aside {
+    width: 400px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -285px;
+}
+
+aside div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+input {
+    width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    height: 40px;
+}
+
+button {
+    background-color: red;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: darkred;
+}
