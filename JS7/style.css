@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 25px 40px;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.18;
+    text-align: center;
+    height: 15%;
+    width: 40%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    background-color: white;
+    height: 54px;
+}
+
+.input{
+    flex-grow: 2;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.btn{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    width: 145px;
+    height: 54px;
+    background: black;
+}
+
+.card-weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-value{
+    font-size: 92px;
+    line-height: 1;
+}
+
+.card-description{
+    font-size: 20px;
+    line-height: 1.2;
+}
